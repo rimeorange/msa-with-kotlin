@@ -68,6 +68,14 @@
             <artifactId>kotlin-test-junit5</artifactId>
             <scope>test</scope>
         </dependency>
+
+        <!-- Kotlin Logging -->
+        <dependency>
+            <groupId>io.github.microutils</groupId>
+            <artifactId>kotlin-logging-jvm</artifactId>
+            <version>3.0.5</version> <!-- 최신 버전은 GitHub에서 확인 가능 -->
+        </dependency>
+
     </dependencies>
     <dependencyManagement>
         <dependencies>
